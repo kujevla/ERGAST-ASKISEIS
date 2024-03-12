@@ -1,0 +1,17 @@
+def hamming_distance(s,t):
+    l1=s
+    l2=t
+    count=0
+    if len(l1)!=len(l2):
+        print("Diaforetiko megethos lektikwn")
+        return -1
+    for x in range(len(l1)):
+        temp=l1[x]
+        if temp!=l2[x]:
+            count=count+1
+    
+    
+
+    return count
+
+
